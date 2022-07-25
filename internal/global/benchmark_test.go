@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/internal/global"
+	"github.com/fwhappy/otel/label"
 )
 
 func BenchmarkGlobalInt64CounterAddNoSDK(b *testing.B) {

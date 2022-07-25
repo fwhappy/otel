@@ -18,7 +18,7 @@ package noop
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 var (

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.opentelemetry.io/otel/propagation"
+	"github.com/fwhappy/otel/propagation"
 )
 
 type ctxKeyType uint

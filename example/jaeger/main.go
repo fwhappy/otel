@@ -20,11 +20,11 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
 
-	"go.opentelemetry.io/otel/exporters/trace/jaeger"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/fwhappy/otel/exporters/trace/jaeger"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 // initTracer creates a new trace provider instance and registers it as global trace provider.

@@ -18,4 +18,4 @@
 // This package is currently in a pre-GA phase. Backwards incompatible changes
 // may be introduced in subsequent minor version releases as we work to track
 // the evolving OpenTelemetry specification and user feedback.
-package stdout // import "go.opentelemetry.io/otel/exporters/stdout"
+package stdout // import "github.com/fwhappy/otel/exporters/stdout"

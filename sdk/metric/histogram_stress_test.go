@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/histogram"
 )
 
 func TestStressInt64Histogram(t *testing.T) {

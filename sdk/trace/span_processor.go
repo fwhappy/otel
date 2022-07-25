@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/fwhappy/otel/sdk/trace"
 
 import (
 	"context"
 	"sync"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	export "github.com/fwhappy/otel/sdk/export/trace"
 )
 
 // SpanProcessor is interface to add hooks to start and end method invocations.

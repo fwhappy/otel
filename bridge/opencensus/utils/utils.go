@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package utils // import "go.opentelemetry.io/otel/bridge/opencensus/utils"
+package utils // import "github.com/fwhappy/otel/bridge/opencensus/utils"
 
 import (
 	"fmt"
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/trace"
 )
 
 // OTelSpanContextToOC converts from an OpenTelemetry SpanContext to an

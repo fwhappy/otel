@@ -26,11 +26,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/exporters/metric/prometheus"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/sdk/metric/controller/pull"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/exporters/metric/prometheus"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/sdk/metric/controller/pull"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 func TestPrometheusExporter(t *testing.T) {

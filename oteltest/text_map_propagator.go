@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"
 
 import (
 	"context"
@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"go.opentelemetry.io/otel/propagation"
+	"github.com/fwhappy/otel/propagation"
 )
 
 type ctxKeyType string

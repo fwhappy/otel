@@ -20,10 +20,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/oteltest"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/internal/global"
+	"github.com/fwhappy/otel/oteltest"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestTraceWithSDK(t *testing.T) {

@@ -19,11 +19,11 @@ import (
 	"errors"
 	"testing"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/oteltest"
-	"go.opentelemetry.io/otel/unit"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	"github.com/fwhappy/otel/oteltest"
+	"github.com/fwhappy/otel/unit"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"

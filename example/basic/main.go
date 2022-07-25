@@ -18,17 +18,17 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/baggage"
-	"go.opentelemetry.io/otel/exporters/stdout"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/baggage"
+	"github.com/fwhappy/otel/exporters/stdout"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/propagation"
+	"github.com/fwhappy/otel/sdk/metric/controller/push"
+	"github.com/fwhappy/otel/sdk/metric/processor/basic"
+	"github.com/fwhappy/otel/sdk/metric/selector/simple"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
 )
 
 type tlsOption int

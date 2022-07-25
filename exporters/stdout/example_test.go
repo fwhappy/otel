@@ -18,11 +18,11 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/stdout"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/exporters/stdout"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/trace"
 )
 
 const (

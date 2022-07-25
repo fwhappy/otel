@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package registry // import "go.opentelemetry.io/otel/metric/registry"
+package registry // import "github.com/fwhappy/otel/metric/registry"
 
 import (
 	"context"
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
 )
 
 // MeterProvider is a standard MeterProvider for wrapping `MeterImpl`

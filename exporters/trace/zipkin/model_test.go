@@ -24,11 +24,11 @@ import (
 	zkmodel "github.com/openzipkin/zipkin-go/model"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestModelConversion(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/label"
 )
 
 func TestNewSpanConfig(t *testing.T) {

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stdout // import "go.opentelemetry.io/otel/exporters/stdout"
+package stdout // import "github.com/fwhappy/otel/exporters/stdout"
 
 import (
 	"context"
@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	exportmetric "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	exportmetric "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
 )
 
 type metricExporter struct {

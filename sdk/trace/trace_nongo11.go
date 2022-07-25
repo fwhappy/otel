@@ -12,9 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !go1.11
 // +build !go1.11
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/fwhappy/otel/sdk/trace"
 
 import (
 	"context"

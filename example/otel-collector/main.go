@@ -14,7 +14,7 @@
 
 // Example using the OTLP exporter + collector + third-party backends. For
 // information about using the exporter, see:
-// https://pkg.go.dev/go.opentelemetry.io/otel/exporters/otlp?tab=doc#example-package-Insecure
+// https://pkg.go.dev/github.com/fwhappy/otel/exporters/otlp?tab=doc#example-package-Insecure
 package main
 
 import (
@@ -25,18 +25,18 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/semconv"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/exporters/otlp"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/propagation"
+	"github.com/fwhappy/otel/sdk/metric/controller/push"
+	"github.com/fwhappy/otel/sdk/metric/processor/basic"
+	"github.com/fwhappy/otel/sdk/metric/selector/simple"
+	"github.com/fwhappy/otel/sdk/resource"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
+	"github.com/fwhappy/otel/semconv"
+	"github.com/fwhappy/otel/trace"
 )
 
 // Initializes an OTLP exporter, and configures the corresponding trace and

@@ -48,4 +48,4 @@ testing structures.
 	sr := new(oteltest.StandardSpanRecorder)
 	tp := oteltest.NewTracerProvider(oteltest.WithSpanRecorder(sr))
 */
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"

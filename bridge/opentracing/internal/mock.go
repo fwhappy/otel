@@ -21,13 +21,13 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/internal/baggage"
-	otelparent "go.opentelemetry.io/otel/internal/trace/parent"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/internal/baggage"
+	otelparent "github.com/fwhappy/otel/internal/trace/parent"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
+	"github.com/fwhappy/otel/bridge/opentracing/migration"
 )
 
 var (

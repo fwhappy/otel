@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/fwhappy/otel/sdk/trace"
 
 import (
 	"container/list"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/sdk/export/trace"
 )
 
 // attributesMap is a capped map of attributes, holding the most recent attributes.

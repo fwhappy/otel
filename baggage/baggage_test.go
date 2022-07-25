@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/internal/baggage"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/internal/baggage"
+	"github.com/fwhappy/otel/label"
 )
 
 func TestBaggage(t *testing.T) {

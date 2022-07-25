@@ -23,9 +23,9 @@ import (
 	"os"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/trace/zipkin"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/exporters/trace/zipkin"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 var logger = log.New(os.Stderr, "zipkin-example", log.Ldate|log.Ltime|log.Llongfile)

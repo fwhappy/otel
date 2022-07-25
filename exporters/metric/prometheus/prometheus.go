@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package prometheus // import "go.opentelemetry.io/otel/exporters/metric/prometheus"
+package prometheus // import "github.com/fwhappy/otel/exporters/metric/prometheus"
 
 import (
 	"context"
@@ -23,15 +23,15 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/controller/pull"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/metric/controller/pull"
+	"github.com/fwhappy/otel/sdk/metric/processor/basic"
+	"github.com/fwhappy/otel/sdk/metric/selector/simple"
 )
 
 // Exporter supports Prometheus pulls.  It does not implement the

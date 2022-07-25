@@ -19,10 +19,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/aggregatortest"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/aggregatortest"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/histogram"
 )
 
 const inputRange = 1e6

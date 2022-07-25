@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlp // import "go.opentelemetry.io/otel/exporters/otlp"
+package otlp // import "github.com/fwhappy/otel/exporters/otlp"
 
 import (
 	"time"
@@ -20,7 +20,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	metricsdk "go.opentelemetry.io/otel/sdk/export/metric"
+	metricsdk "github.com/fwhappy/otel/sdk/export/metric"
 )
 
 const (

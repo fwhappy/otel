@@ -20,7 +20,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/label"
 )
 
 func TestKeyValueConstructors(t *testing.T) {

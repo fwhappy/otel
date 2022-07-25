@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/trace"
+package trace // import "github.com/fwhappy/otel/trace"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
 )
 
 // NewNoopTracerProvider returns an implementation of TracerProvider that

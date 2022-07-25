@@ -13,4 +13,4 @@
 // limitations under the License.
 
 // Package opencensus provides a migration bridge forwarding the OpenCensus API to the OpenTelemetry SDK.
-package opencensus // import "go.opentelemetry.io/otel/bridge/opencensus"
+package opencensus // import "github.com/fwhappy/otel/bridge/opencensus"

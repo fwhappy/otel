@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package basic // import "go.opentelemetry.io/otel/sdk/metric/processor/basic"
+package basic // import "github.com/fwhappy/otel/sdk/metric/processor/basic"
 
 // Config contains the options for configuring a basic metric processor.
 type Config struct {

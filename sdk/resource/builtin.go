@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package resource // import "go.opentelemetry.io/otel/sdk/resource"
+package resource // import "github.com/fwhappy/otel/sdk/resource"
 
 import (
 	"context"
 	"fmt"
 	"os"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/semconv"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/semconv"
 )
 
 type (

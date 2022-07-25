@@ -20,12 +20,12 @@ import (
 	"math/rand"
 	"testing"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/processor/processortest"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	sdk "github.com/fwhappy/otel/sdk/metric"
+	"github.com/fwhappy/otel/sdk/metric/processor/processortest"
 )
 
 type benchFixture struct {

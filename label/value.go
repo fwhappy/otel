@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package label // import "go.opentelemetry.io/otel/label"
+package label // import "github.com/fwhappy/otel/label"
 
 import (
 	"encoding/json"
@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/internal"
+	"github.com/fwhappy/otel/internal"
 )
 
 //go:generate stringer -type=Type

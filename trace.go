@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/fwhappy/otel"
 
 import (
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/internal/global"
+	"github.com/fwhappy/otel/trace"
 )
 
 // Tracer creates a named tracer that implements Tracer interface.

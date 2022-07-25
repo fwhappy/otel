@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metric // import "go.opentelemetry.io/otel/metric"
+package metric // import "github.com/fwhappy/otel/metric"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric/number"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric/number"
 )
 
 // MeterImpl is the interface an SDK must implement to supply a Meter

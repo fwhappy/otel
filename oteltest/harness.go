@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"
 
 import (
 	"context"
@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/internal/matchers"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/internal/matchers"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 )
 
 // Harness is a testing harness used to test implementations of the

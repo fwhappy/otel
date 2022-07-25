@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"
 
 import (
 	"context"
 	"time"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 )
 
 var _ trace.Tracer = (*Tracer)(nil)

@@ -6,7 +6,7 @@ package v1
 import (
 	fmt "fmt"
 	proto "github.com/gogo/protobuf/proto"
-	v1 "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
+	v1 "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
 	io "io"
 	math "math"
 	math_bits "math/bits"

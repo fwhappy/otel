@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package reducer // import "go.opentelemetry.io/otel/sdk/metric/processor/reducer"
+package reducer // import "github.com/fwhappy/otel/sdk/metric/processor/reducer"
 
 import (
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	export "github.com/fwhappy/otel/sdk/export/metric"
 )
 
 type (

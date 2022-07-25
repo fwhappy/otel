@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"
 
 import (
 	"time"
 
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/label"
 )
 
 // Event encapsulates the properties of calls to AddEvent.

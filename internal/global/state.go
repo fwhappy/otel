@@ -18,9 +18,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/propagation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/propagation"
+	"github.com/fwhappy/otel/trace"
 )
 
 type (

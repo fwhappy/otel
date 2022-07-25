@@ -25,20 +25,20 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/oteltest"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/oteltest"
+	"github.com/fwhappy/otel/trace"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ottest "go.opentelemetry.io/otel/internal/testing"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	ottest "github.com/fwhappy/otel/internal/testing"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 var (
@@ -1047,7 +1047,7 @@ func TestRecordError(t *testing.T) {
 	}{
 		{
 			err: ottest.NewTestError("test error"),
-			typ: "go.opentelemetry.io/otel/internal/testing.TestError",
+			typ: "github.com/fwhappy/otel/internal/testing.TestError",
 			msg: "test error",
 		},
 		{

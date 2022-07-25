@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"go.opentelemetry.io/otel/propagation"
+	"github.com/fwhappy/otel/propagation"
 )
 
 // textMapPropagator is a default TextMapPropagator that delegates calls to a

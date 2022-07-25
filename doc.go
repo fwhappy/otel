@@ -23,14 +23,14 @@ evolving OpenTelemetry specification and user feedback.
 The provided API is used to instrument code and measure data about that code's
 performance and operation. The measured data, by default, is not processed or
 transmitted anywhere. An implementation of the OpenTelemetry SDK, like the
-default SDK implementation (go.opentelemetry.io/otel/sdk), and associated
+default SDK implementation (github.com/fwhappy/otel/sdk), and associated
 exporters are used to process and transport this data.
 
-To read more about tracing, see go.opentelemetry.io/otel/trace.
+To read more about tracing, see github.com/fwhappy/otel/trace.
 
-To read more about metrics, see go.opentelemetry.io/otel/metric.
+To read more about metrics, see github.com/fwhappy/otel/metric.
 
-To read more about propagation, see go.opentelemetry.io/otel/propagation and
-go.opentelemetry.io/otel/baggage.
+To read more about propagation, see github.com/fwhappy/otel/propagation and
+github.com/fwhappy/otel/baggage.
 */
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/fwhappy/otel"

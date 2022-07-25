@@ -15,13 +15,13 @@
 package transform
 
 import (
-	"go.opentelemetry.io/otel/codes"
-	tracepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/trace/v1"
+	"github.com/fwhappy/otel/codes"
+	tracepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/trace/v1"
 
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/trace"
 )
 
 const (

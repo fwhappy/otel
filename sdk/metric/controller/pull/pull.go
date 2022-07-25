@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package pull // import "go.opentelemetry.io/otel/sdk/metric/controller/pull"
+package pull // import "github.com/fwhappy/otel/sdk/metric/controller/pull"
 
 import (
 	"context"
 	"time"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/registry"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	controllerTime "go.opentelemetry.io/otel/sdk/metric/controller/time"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/registry"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	sdk "github.com/fwhappy/otel/sdk/metric"
+	controllerTime "github.com/fwhappy/otel/sdk/metric/controller/time"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 // DefaultCachePeriod determines how long a recently-computed result

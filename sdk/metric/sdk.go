@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package metric // import "go.opentelemetry.io/otel/sdk/metric"
+package metric // import "github.com/fwhappy/otel/sdk/metric"
 
 import (
 	"context"
@@ -21,14 +21,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel"
-	internal "go.opentelemetry.io/otel/internal/metric"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel"
+	internal "github.com/fwhappy/otel/internal/metric"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/metric/aggregator"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 type (

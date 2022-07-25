@@ -22,17 +22,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"go.opentelemetry.io/otel/codes"
-	coltracepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/trace/v1"
-	commonpb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
-	resourcepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/resource/v1"
-	tracepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/trace/v1"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	coltracepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/trace/v1"
+	commonpb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
+	resourcepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/resource/v1"
+	tracepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/trace/v1"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 
-	tracesdk "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	tracesdk "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 type traceServiceClientStub struct {

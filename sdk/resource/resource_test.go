@@ -22,8 +22,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 var (

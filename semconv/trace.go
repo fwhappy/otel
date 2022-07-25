@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package semconv // import "go.opentelemetry.io/otel/semconv"
+package semconv // import "github.com/fwhappy/otel/semconv"
 
-import "go.opentelemetry.io/otel/label"
+import "github.com/fwhappy/otel/label"
 
 // Semantic conventions for attribute keys used for network related
 // operations.

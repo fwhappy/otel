@@ -24,12 +24,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ottest "go.opentelemetry.io/otel/internal/testing"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/aggregatortest"
+	ottest "github.com/fwhappy/otel/internal/testing"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/aggregatortest"
 )
 
 const count = 100

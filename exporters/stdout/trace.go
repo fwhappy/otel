@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stdout // import "go.opentelemetry.io/otel/exporters/stdout"
+package stdout // import "github.com/fwhappy/otel/exporters/stdout"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/export/trace"
 )
 
 // Exporter is an implementation of trace.SpanSyncer that writes spans to stdout.

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jaeger // import "go.opentelemetry.io/otel/exporters/trace/jaeger"
+package jaeger // import "github.com/fwhappy/otel/exporters/trace/jaeger"
 
 import (
 	"errors"
@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
 )
 
 // Environment variable names

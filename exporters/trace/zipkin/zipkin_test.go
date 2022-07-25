@@ -30,11 +30,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/codes"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/codes"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 const (

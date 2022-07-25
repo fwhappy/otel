@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package oteltest // import "go.opentelemetry.io/otel/oteltest"
+package oteltest // import "github.com/fwhappy/otel/oteltest"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 // defaultSpanContextFunc returns the default SpanContextFunc.

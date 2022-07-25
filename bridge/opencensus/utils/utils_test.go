@@ -21,7 +21,7 @@ import (
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestOTelSpanContextToOC(t *testing.T) {

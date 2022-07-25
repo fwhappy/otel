@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/exporters/stdout"
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/exporters/stdout"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/resource"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestExporter_ExportSpan(t *testing.T) {

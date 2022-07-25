@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/fwhappy/otel"
 
 import (
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/metric"
+	"github.com/fwhappy/otel/internal/global"
+	"github.com/fwhappy/otel/metric"
 )
 
 // Meter creates an implementation of the Meter interface from the global

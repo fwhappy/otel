@@ -23,15 +23,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	metricsdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/processor/processortest"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	metricsdk "github.com/fwhappy/otel/sdk/metric"
+	"github.com/fwhappy/otel/sdk/metric/processor/processortest"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 var Must = metric.Must

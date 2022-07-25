@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main // import "go.opentelemetry.io/otel/bridge/opencensus/examples/simple"
+package main // import "github.com/fwhappy/otel/bridge/opencensus/examples/simple"
 
 import (
 	"context"
@@ -20,10 +20,10 @@ import (
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/bridge/opencensus"
-	"go.opentelemetry.io/otel/exporters/stdout"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/bridge/opencensus"
+	"github.com/fwhappy/otel/exporters/stdout"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 func main() {

@@ -17,7 +17,7 @@ package metric
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/label"
 
 	"github.com/stretchr/testify/require"
 )

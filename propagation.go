@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/fwhappy/otel"
 
 import (
-	"go.opentelemetry.io/otel/internal/global"
-	"go.opentelemetry.io/otel/propagation"
+	"github.com/fwhappy/otel/internal/global"
+	"github.com/fwhappy/otel/propagation"
 )
 
 // GetTextMapPropagator returns the global TextMapPropagator. If none has been

@@ -17,8 +17,8 @@ package otel
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/internal/trace/noop"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/internal/trace/noop"
+	"github.com/fwhappy/otel/trace"
 )
 
 type testTracerProvider struct{}

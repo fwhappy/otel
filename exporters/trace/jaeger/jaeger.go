@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jaeger // import "go.opentelemetry.io/otel/exporters/trace/jaeger"
+package jaeger // import "github.com/fwhappy/otel/exporters/trace/jaeger"
 
 import (
 	"context"
@@ -22,13 +22,13 @@ import (
 
 	"google.golang.org/api/support/bundler"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/codes"
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/codes"
+	gen "github.com/fwhappy/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 const (

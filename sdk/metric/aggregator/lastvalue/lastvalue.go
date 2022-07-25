@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package lastvalue // import "go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
+package lastvalue // import "github.com/fwhappy/otel/sdk/metric/aggregator/lastvalue"
 
 import (
 	"context"
@@ -20,11 +20,11 @@ import (
 	"time"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/metric/aggregator"
 )
 
 type (

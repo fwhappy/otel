@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/internal/matchers"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/oteltest"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/internal/matchers"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/oteltest"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestTracer(t *testing.T) {

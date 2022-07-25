@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/trace"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 type testExporter struct {

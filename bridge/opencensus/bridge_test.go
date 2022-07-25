@@ -20,11 +20,11 @@ import (
 
 	octrace "go.opencensus.io/trace"
 
-	"go.opentelemetry.io/otel/bridge/opencensus/utils"
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/oteltest"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/bridge/opencensus/utils"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/oteltest"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestMixedAPIs(t *testing.T) {

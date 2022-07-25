@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
 )
 
 var ErrInvalidAsyncRunner = errors.New("unknown async runner type")

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package zipkin // import "go.opentelemetry.io/otel/exporters/trace/zipkin"
+package zipkin // import "github.com/fwhappy/otel/exporters/trace/zipkin"
 
 import (
 	"bytes"
@@ -27,9 +27,9 @@ import (
 	"net/url"
 	"sync"
 
-	"go.opentelemetry.io/otel"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/fwhappy/otel"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 // Exporter exports SpanData to the zipkin collector. It implements

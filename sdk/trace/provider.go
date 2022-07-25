@@ -12,23 +12,23 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/fwhappy/otel/sdk/trace"
 
 import (
 	"context"
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/trace"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 const (
-	defaultTracerName = "go.opentelemetry.io/otel/sdk/tracer"
+	defaultTracerName = "github.com/fwhappy/otel/sdk/tracer"
 )
 
 // TODO (MrAlias): unify this API option design:

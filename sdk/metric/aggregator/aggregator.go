@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregator // import "go.opentelemetry.io/otel/sdk/metric/aggregator"
+package aggregator // import "github.com/fwhappy/otel/sdk/metric/aggregator"
 
 import (
 	"fmt"
 	"math"
 
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
 )
 
 // NewInconsistentAggregatorError formats an error describing an attempt to

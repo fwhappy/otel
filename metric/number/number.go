@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package number // import "go.opentelemetry.io/otel/metric/number"
+package number // import "github.com/fwhappy/otel/metric/number"
 
 //go:generate stringer -type=Kind
 
@@ -21,7 +21,7 @@ import (
 	"math"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/internal"
+	"github.com/fwhappy/otel/internal"
 )
 
 // Kind describes the data type of the Number.

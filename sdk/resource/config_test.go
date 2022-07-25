@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel"
-	ottest "go.opentelemetry.io/otel/internal/testing"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel"
+	ottest "github.com/fwhappy/otel/internal/testing"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 const envVar = "OTEL_RESOURCE_ATTRIBUTES"

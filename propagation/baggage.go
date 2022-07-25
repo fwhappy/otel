@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package propagation // import "go.opentelemetry.io/otel/propagation"
+package propagation // import "github.com/fwhappy/otel/propagation"
 
 import (
 	"context"
 	"net/url"
 	"strings"
 
-	"go.opentelemetry.io/otel/internal/baggage"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/internal/baggage"
+	"github.com/fwhappy/otel/label"
 )
 
 const baggageHeader = "baggage"

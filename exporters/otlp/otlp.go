@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otlp // import "go.opentelemetry.io/otel/exporters/otlp"
+package otlp // import "github.com/fwhappy/otel/exporters/otlp"
 
 // This code was based on
 // contrib.go.opencensus.io/exporter/ocagent/connection.go
@@ -24,13 +24,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	colmetricpb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/metrics/v1"
-	coltracepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/trace/v1"
-	"go.opentelemetry.io/otel/exporters/otlp/internal/transform"
-	"go.opentelemetry.io/otel/metric"
-	metricsdk "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	tracesdk "go.opentelemetry.io/otel/sdk/export/trace"
+	colmetricpb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/metrics/v1"
+	coltracepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/collector/trace/v1"
+	"github.com/fwhappy/otel/exporters/otlp/internal/transform"
+	"github.com/fwhappy/otel/metric"
+	metricsdk "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	tracesdk "github.com/fwhappy/otel/sdk/export/trace"
 )
 
 // Exporter is an OpenTelemetry exporter. It exports both traces and metrics
@@ -155,7 +155,7 @@ func (e *Exporter) Shutdown(ctx context.Context) error {
 	return err
 }
 
-// Export implements the "go.opentelemetry.io/otel/sdk/export/metric".Exporter
+// Export implements the "github.com/fwhappy/otel/sdk/export/metric".Exporter
 // interface. It transforms and batches metric Records into OTLP Metrics and
 // transmits them to the configured collector.
 func (e *Exporter) Export(parent context.Context, cps metricsdk.CheckpointSet) error {

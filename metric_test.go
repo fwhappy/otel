@@ -17,7 +17,7 @@ package otel
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/metric"
+	"github.com/fwhappy/otel/metric"
 )
 
 type testMeterProvider struct{}

@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package baggage // import "go.opentelemetry.io/otel/baggage"
+package baggage // import "github.com/fwhappy/otel/baggage"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/internal/baggage"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/internal/baggage"
+	"github.com/fwhappy/otel/label"
 )
 
 // Set returns a copy of the set of baggage key-values in ctx.

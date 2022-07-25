@@ -22,14 +22,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/metric/controller/controllertest"
-	"go.opentelemetry.io/otel/sdk/metric/controller/pull"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/processor/processortest"
-	selector "go.opentelemetry.io/otel/sdk/metric/selector/simple"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/metric/controller/controllertest"
+	"github.com/fwhappy/otel/sdk/metric/controller/pull"
+	"github.com/fwhappy/otel/sdk/metric/processor/basic"
+	"github.com/fwhappy/otel/sdk/metric/processor/processortest"
+	selector "github.com/fwhappy/otel/sdk/metric/selector/simple"
 )
 
 func TestPullNoCache(t *testing.T) {

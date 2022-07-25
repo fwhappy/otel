@@ -35,8 +35,8 @@ import (
 	"context"
 	"sync"
 
-	"go.opentelemetry.io/otel/internal/trace/noop"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/internal/trace/noop"
+	"github.com/fwhappy/otel/trace"
 )
 
 // tracerProvider is a placeholder for a configured SDK TracerProvider.

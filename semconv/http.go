@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package semconv // import "go.opentelemetry.io/otel/semconv"
+package semconv // import "github.com/fwhappy/otel/semconv"
 
 import (
 	"fmt"
@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
 )
 
 // NetAttributesFromHTTPRequest generates attributes of the net

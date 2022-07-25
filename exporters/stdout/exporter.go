@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stdout // import "go.opentelemetry.io/otel/exporters/stdout"
+package stdout // import "github.com/fwhappy/otel/exporters/stdout"
 
 import (
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/sdk/export/metric"
-	exporttrace "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/sdk/export/metric"
+	exporttrace "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/metric/controller/push"
+	"github.com/fwhappy/otel/sdk/metric/processor/basic"
+	"github.com/fwhappy/otel/sdk/metric/selector/simple"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 type Exporter struct {

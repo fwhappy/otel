@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package unit // import "go.opentelemetry.io/otel/unit"
+package unit // import "github.com/fwhappy/otel/unit"
 
 type Unit string
 

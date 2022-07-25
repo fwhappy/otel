@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 func TestParentBasedDefaultLocalParentSampled(t *testing.T) {

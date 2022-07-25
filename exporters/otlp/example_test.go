@@ -22,9 +22,9 @@ import (
 
 	"google.golang.org/grpc/credentials"
 
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/fwhappy/otel"
+	"github.com/fwhappy/otel/exporters/otlp"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 func Example_insecure() {

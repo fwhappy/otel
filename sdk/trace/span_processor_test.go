@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/trace"
 )
 
 type testSpanProcessor struct {

@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/trace"
+package trace // import "github.com/fwhappy/otel/sdk/trace"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/internal/trace/parent"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/internal/trace/parent"
+	"github.com/fwhappy/otel/trace"
 
-	"go.opentelemetry.io/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/instrumentation"
 )
 
 type tracer struct {

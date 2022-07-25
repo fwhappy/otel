@@ -14,18 +14,18 @@
 
 //go:generate stringer -type=ExportKind
 
-package metric // import "go.opentelemetry.io/otel/sdk/export/metric"
+package metric // import "github.com/fwhappy/otel/sdk/export/metric"
 
 import (
 	"context"
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 // Processor is responsible for deciding which kind of aggregation to

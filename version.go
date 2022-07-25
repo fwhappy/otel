@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package otel // import "go.opentelemetry.io/otel"
+package otel // import "github.com/fwhappy/otel"
 
 // Version is the current release version of OpenTelemetry in use.
 func Version() string {

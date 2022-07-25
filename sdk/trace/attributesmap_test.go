@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.opentelemetry.io/otel/label"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/label"
+	export "github.com/fwhappy/otel/sdk/export/trace"
 )
 
 const testKeyFmt = "test-key-%d"

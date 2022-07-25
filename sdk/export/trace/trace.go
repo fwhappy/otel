@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/export/trace"
+package trace // import "github.com/fwhappy/otel/sdk/export/trace"
 
 import (
 	"context"
 	"time"
 
-	"go.opentelemetry.io/otel/codes"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/codes"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 // SpanExporter handles the delivery of SpanData to external receivers. This is

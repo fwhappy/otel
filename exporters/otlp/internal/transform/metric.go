@@ -24,16 +24,16 @@ import (
 	"sync"
 	"time"
 
-	commonpb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
-	metricpb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/metrics/v1"
-	resourcepb "go.opentelemetry.io/otel/exporters/otlp/internal/opentelemetry-proto-gen/resource/v1"
+	commonpb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/common/v1"
+	metricpb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/metrics/v1"
+	resourcepb "github.com/fwhappy/otel/exporters/otlp/internal/opentelemetry-proto-gen/resource/v1"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric/number"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric/number"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/instrumentation"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 var (

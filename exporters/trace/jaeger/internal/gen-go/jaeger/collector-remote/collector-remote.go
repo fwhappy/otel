@@ -16,7 +16,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
+	"github.com/fwhappy/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
 )
 
 func Usage() {

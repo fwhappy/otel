@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/export/trace/tracetest"
+	export "github.com/fwhappy/otel/sdk/export/trace"
+	"github.com/fwhappy/otel/sdk/export/trace/tracetest"
 )
 
 // DurationFilter is a SpanProcessor that filters spans that have lifetimes

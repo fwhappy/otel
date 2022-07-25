@@ -14,14 +14,14 @@
 
 //go:generate stringer -type=InstrumentKind
 
-package metric // import "go.opentelemetry.io/otel/metric"
+package metric // import "github.com/fwhappy/otel/metric"
 
 import (
 	"context"
 	"errors"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric/number"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric/number"
 )
 
 // ErrSDKReturnedNilImpl is returned when a new `MeterImpl` returns nil.

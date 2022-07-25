@@ -22,9 +22,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/internal/baggage"
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/propagation"
+	"github.com/fwhappy/otel/internal/baggage"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/propagation"
 )
 
 func TestExtractValidBaggageFromHTTPReq(t *testing.T) {

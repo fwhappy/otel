@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/trace"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/trace"
 
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	sdktrace "github.com/fwhappy/otel/sdk/trace"
 )
 
 func BenchmarkStartEndSpan(b *testing.B) {

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package processortest // import "go.opentelemetry.io/otel/sdk/metric/processor/processortest"
+package processortest // import "github.com/fwhappy/otel/sdk/metric/processor/processortest"
 
 import (
 	"context"
@@ -21,17 +21,17 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/array"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/ddsketch"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/histogram"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/minmaxsumcount"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	export "github.com/fwhappy/otel/sdk/export/metric"
+	"github.com/fwhappy/otel/sdk/export/metric/aggregation"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/array"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/ddsketch"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/histogram"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/lastvalue"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/minmaxsumcount"
+	"github.com/fwhappy/otel/sdk/metric/aggregator/sum"
+	"github.com/fwhappy/otel/sdk/resource"
 )
 
 type (

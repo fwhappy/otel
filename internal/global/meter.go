@@ -20,10 +20,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/label"
-	"go.opentelemetry.io/otel/metric"
-	"go.opentelemetry.io/otel/metric/number"
-	"go.opentelemetry.io/otel/metric/registry"
+	"github.com/fwhappy/otel/label"
+	"github.com/fwhappy/otel/metric"
+	"github.com/fwhappy/otel/metric/number"
+	"github.com/fwhappy/otel/metric/registry"
 )
 
 // This file contains the forwarding implementation of MeterProvider used as
